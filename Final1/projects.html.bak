@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chaiyasit | Projects</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- ================================
+     EPIC FX SYSTEM
+================================ -->
+
+<div class="epic-fx">
+
+    <!-- Aurora -->
+    <div class="aurora aurora-1"></div>
+    <div class="aurora aurora-2"></div>
+    <div class="aurora aurora-3"></div>
+
+    <!-- Interactive particles -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Cursor glow -->
+    <div class="cursor-light"></div>
+
+    <!-- Mouse spotlight -->
+    <div class="mouse-spotlight"></div>
+
+    <!-- Lightning -->
+    <div class="lightning"></div>
+
+    <!-- Scan line -->
+    <div class="scan-line"></div>
+
+</div>
+
+<!-- Mouse spark container -->
+<div id="sparkContainer"></div>
+
+<!-- Click explosion container -->
+<div id="clickContainer"></div>
+<!-- ===== EFFECT BACKGROUND ===== -->
+<div class="fx-background">
+
+    <!-- แสงก้อนใหญ่ -->
+    <div class="fx-glow fx-glow-1"></div>
+    <div class="fx-glow fx-glow-2"></div>
+    <div class="fx-glow fx-glow-3"></div>
+
+    <!-- ดาววิบวับ -->
+    <div class="sparkles">
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+    </div>
+
+    <!-- ลูกไฟลอย -->
+    <div class="fire-particles">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- เส้นแสง -->
+    <div class="light-lines">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+</div>
+<header class="navbar">
+
+    <a href="index.html" class="logo">PORT<span>FOLIO.</span></a>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html" class="active">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <a href="contact.html" class="nav-btn">Let's Talk</a>
+
+</header>
+
+
+<main>
+
+<section class="page-header">
+
+    <p class="small-title">MY CREATIVE WORK</p>
+
+    <h1>My <span>Projects</span></h1>
+
+    <p>
+        รวมผลงานและค่ายที่ผมได้เรียนรู้และพัฒนาขึ้น
+    </p>
+
+</section>
+
+
+<section class="all-projects">
+
+    <div class="projects-grid">
+
+
+        <article class="large-project-card">
+
+            <div class="large-project-image">
+
+                <img
+                    src="001.jpg"
+                    alt="Portfolio Website">
+
+                <div class="project-number">01</div>
+
+            </div>
+
+            <div class="large-project-content">
+
+                <p>DOBOT</p>
+
+                <h2>การแข่งขันหุ่นยนต์แขนกล Dobot</h2>
+
+                <p>
+                    ได้รับรางวัลรองชนะเลิศอันดับ 2 การแข่งชันมหกรรมวิชาการวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม ประจำปี พ.ศ. 2568
+                </p>
+
+                <div class="tags">
+                    <span>😈</span>
+                    <span>🤡</span>
+                    <span>👽</span>
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="large-project-card">
+
+            <div class="large-project-image">
+
+                <img
+                    src="002.jpg"
+                    alt="Database System">
+
+                <div class="project-number">02</div>
+
+            </div>
+
+            <div class="large-project-content">
+
+                <p>ค่ายค้นค่ายตัวตน</p>
+
+                <h2>เข้าร่วมค่ายค้นค่ายตัวตน</h2>
+
+                <p>
+                    เข้าร่วมค่ายค้นค่ายตัวตน มหาวิทยาลัยขอนแก่น
+                </p>
+
+                <div class="tags">
+                    <span>🤦‍♂️</span>
+                    <span>🤡</span>
+                    <span>😁</span>
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="large-project-card">
+
+            <div class="large-project-image">
+
+                <img
+                    src="003.jpg"
+                    alt="Microbit">
+
+                <div class="project-number">03</div>
+
+            </div>
+
+            <div class="large-project-content">
+
+                <p>แข่งขันตอบปัญหาทางคอมพิวเตอร์</p>
+
+                <h2>เข้าร่วมการแข่งขันตอบปัญหาทางคอมพิวเตอร์ เทคโนโลยีสารสนเทศ</h2>
+
+                <p>
+                    ณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏเลย
+                </p>
+
+                <div class="tags">
+                    <span>👽</span>
+                    <span>😍</span>
+                    <span>😊</span>
+                </div>
+
+            </div>
+
+        </article>
+
+
+        <article class="large-project-card">
+
+            <div class="large-project-image">
+
+                <img
+                    src="004 .jpg"
+                    alt="Car Website">
+
+                <div class="project-number">04</div>
+
+            </div>
+
+            <div class="large-project-content">
+
+                <p>ได้ผ่านการอบรมเชิงปฏิบัติการด้านหุ่นยนต์แขนกล</p>
+
+                <h2>Dobot Magician และการควบคุมระบบอัตโนมัติ</h2>
+
+                <p>
+                    ณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏเลย
+                </p>
+
+                <div class="tags">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>UI Design</span>
+                </div>
+
+            </div>
+
+        </article>
+
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer>
+    <p>© 2026 Chaisit. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
