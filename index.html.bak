@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<!-- ================================
+     EPIC FX SYSTEM
+================================ -->
+
+<div class="epic-fx">
+
+    <!-- Aurora -->
+    <div class="aurora aurora-1"></div>
+    <div class="aurora aurora-2"></div>
+    <div class="aurora aurora-3"></div>
+
+    <!-- Interactive particles -->
+    <canvas id="particleCanvas"></canvas>
+
+    <!-- Cursor glow -->
+    <div class="cursor-light"></div>
+
+    <!-- Mouse spotlight -->
+    <div class="mouse-spotlight"></div>
+
+    <!-- Lightning -->
+    <div class="lightning"></div>
+
+
+</div>
+
+<!-- Mouse spark container -->
+<div id="sparkContainer"></div>
+
+<!-- Click explosion container -->
+<div id="clickContainer"></div>
+<!-- ===== EFFECT BACKGROUND ===== -->
+<div class="fx-background">
+
+    <!-- แสงก้อนใหญ่ -->
+    <div class="fx-glow fx-glow-1"></div>
+    <div class="fx-glow fx-glow-2"></div>
+    <div class="fx-glow fx-glow-3"></div>
+
+    <!-- ดาววิบวับ -->
+    <div class="sparkles">
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+    </div>
+
+    <!-- ลูกไฟลอย -->
+    <div class="fire-particles">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- เส้นแสง -->
+    <div class="light-lines">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+</div>
+<header class="navbar">
+    <a href="index.html" class="logo">PORT<span>FOLIO.</span></a>
+
+    <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="about.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <a href="contact.html" class="nav-btn">Let's Talk</a>
+</header>
+
+<main>
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="small-title">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>
+                Hello, I'm <br>
+                <span>Chaiyasit</span>
+            </h1>
+
+            <h2>Web Developer & IT Student</h2>
+
+            <p class="hero-text">
+                ผมเป็นนักเรียนแผนการเรียนเทคโนโลยี มัธยมศึกษาปีที่ 5
+                ห้อง 5 โรงเรียนเลยพิทยาคม
+            </p>
+
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn primary">View My Work →</a>
+                <a href="about.html" class="btn secondary">About Me</a>
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <div class="image-bg"></div>
+
+            <div class="profile-card">
+                <img src="me11.jpg" alt="Profile">
+            </div>
+
+            <div class="floating-card card-one">
+                <strong>3+</strong>
+                <span>Projects</span>
+            </div>
+
+            <div class="floating-card card-two">
+                <strong>100%</strong>
+                <span>Passion</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="featured">
+
+        <div class="section-heading">
+            <div>
+                <p class="small-title">MY WORK</p>
+                <h2>Featured <span>Projects</span></h2>
+            </div>
+
+            <a href="projects.html" class="view-all">View All →</a>
+        </div>
+
+
+        <div class="project-grid">
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="001.jpg">
+                </div>
+
+                <div class="project-info">
+                    <p>DOBOT</p>
+                    <h3>การแข่งขันหุ่นยนต์แขนกล Dobot</h3>
+                    <span>ได้รับรางวัลรองชนะเลิศอันดับ 2 การแข่งชันมหกรรมวิชาการวิศวกรรมศาสตร์และเทคโนโลยีอุตสาหกรรม ประจำปี พ.ศ. 2568</span>
+                </div>
+            </article>
+
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="002.jpg" alt="Dashboard Project">
+                </div>
+
+                <div class="project-info">
+                    <p>ค่ายค้นค่ายตัวตน</p>
+                    <h3>เข้าร่วมค่ายค้นค่ายตัวตน</h3>
+                    <span>มหาวิทยาลัยขอนแก่น</span>
+                </div>
+            </article>
+
+
+            <article class="project-card">
+                <div class="project-image">
+                    <img src="003.jpg" alt="Technology Project">
+                </div>
+
+                <div class="project-info">
+                    <p>แข่งขันตอบปัญหาทางคอมพิวเตอร์</p>
+                    <h3>เข้าร่วมการแข่งขันตอบปัญหาทางคอมพิวเตอร์ เทคโนโลยีสารสนเทศ </h3>
+                    <span>ณะวิทยาศาสตร์และเทคโนโลยี มหาวิทยาลัยราชภัฏเลย</span>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<footer>
+    <p>© 2026 Chaisit. All Rights Reserved.</p>
+</footer>
+<!-- Animated Background -->
+<div class="bg-animation">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+<!-- Mouse Glow -->
+<div class="mouse-glow"></div>
+
+<script>
+/* =========================
+   MOUSE GLOW
+========================= */
+
+const mouseGlow = document.querySelector(".mouse-glow");
+
+document.addEventListener("mousemove", (e) => {
+
+    mouseGlow.style.left = e.clientX + "px";
+    mouseGlow.style.top = e.clientY + "px";
+
+});
+
+
+/* =========================
+   CARD 3D TILT
+========================= */
+
+const cards = document.querySelectorAll(
+    ".project-card, .large-project-card, .contact-form-box, .info-grid div"
+);
+
+cards.forEach(card => {
+
+    card.addEventListener("mousemove", (e) => {
+
+        const rect = card.getBoundingClientRect();
+
+        const x = e.clientX - rect.left;
+        const y = e.clientY - rect.top;
+
+        const centerX = rect.width / 2;
+        const centerY = rect.height / 2;
+
+        const rotateX =
+            ((y - centerY) / centerY) * -4;
+
+        const rotateY =
+            ((x - centerX) / centerX) * 4;
+
+        card.style.transform =
+            `perspective(900px)
+             rotateX(${rotateX}deg)
+             rotateY(${rotateY}deg)
+             translateY(-5px)`;
+
+    });
+
+
+    card.addEventListener("mouseleave", () => {
+
+        card.style.transform =
+            "perspective(900px) rotateX(0) rotateY(0) translateY(0)";
+
+    });
+
+});
+
+
+/* =========================
+   SCROLL REVEAL
+========================= */
+
+const revealElements = document.querySelectorAll(
+    ".project-card, .large-project-card, .about-section, .skills-section, .timeline-item, .contact-section"
+);
+
+const observer = new IntersectionObserver(
+    entries => {
+
+        entries.forEach(entry => {
+
+            if (entry.isIntersecting) {
+
+                entry.target.classList.add("show");
+
+            }
+
+        });
+
+    },
+    {
+        threshold: 0.12
+    }
+);
+
+
+revealElements.forEach(element => {
+
+    element.classList.add("reveal");
+
+    observer.observe(element);
+
+});
+
+
+/* =========================
+   RANDOM PARTICLES
+========================= */
+
+const particleContainer =
+    document.querySelector(".particles");
+
+if (particleContainer) {
+
+    for (let i = 0; i < 25; i++) {
+
+        const particle =
+            document.createElement("i");
+
+        particle.style.left =
+            Math.random() * 100 + "%";
+
+        particle.style.animationDelay =
+            Math.random() * 8 + "s";
+
+        particle.style.animationDuration =
+            5 + Math.random() * 8 + "s";
+
+        particle.style.opacity =
+            0.2 + Math.random() * 0.7;
+
+        particleContainer.appendChild(particle);
+
+    }
+
+}
+</script>
+
+</body>
+</html>
